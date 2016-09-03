@@ -1,0 +1,21 @@
+{
+  "name": "css-rewrite-webpack-plugin",
+  "version": "0.1.0",
+  "description": "A Webpack plugin to rewrite CSS assets.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hilongjw/css-rewrite-webpack-plugin"
+  },
+  "dependencies": {
+    "webpack-sources": "^0.1.0"
+  },
+  "keywords": [
+    "CSS",
+    "rewrite",
+    "webpack",
+    "extract-text-webpack-plugin"
+  ],
+  "author": "Awe",
+  "license": "MIT"
+}
