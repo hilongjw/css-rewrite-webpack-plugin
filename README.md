@@ -6,7 +6,7 @@ A Webpack plugin to rewrite CSS assets.
 
 It will search for CSS assets during the Webpack build and you can rewrite the CSS.
 
-```
+```javascript
 var CssRewritePlugin = require('css-rewrite-webpack-plugin');
 module.exports = {
     module: {
@@ -16,7 +16,7 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin("styles.css"),
-        new distFontRewriterPlugin({
+        new CssRewritePlugin({
             fileReg: new RegExp('static/css/dist.css'),
             processor: function (source) {
                 return source.replace(/static\/fonts/g, '..\/fonts')
